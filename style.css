@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: rgba(255, 205, 158, 1);
+    --secondary-color: rgba(40, 40, 40, 1);
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+.mainheading{
+    padding-top: 83px;
+    padding-left: 136px;
+    width: 562px;
+    height: 108px;
+    font-weight: 700;
+}
+
+.description{
+    padding-top: 20px;
+    padding-left: 136px;
+    width: 455px;
+    height: 81px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.description2{
+    padding-top: 20px;
+    padding-left: 136px;
+    width: 327px;
+    height: 81px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.inputfield{
+    border: 4px solid rgba(0, 0, 0, 1);
+    width: 344px;
+    height: 64px;
+    margin-top: 10px;
+    height: 40px;
+    margin-left: 136px;
+    border-radius: 8px;
+    font-size: 20px; 
+    padding: 10px;
+}
+
+.inputfield::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: 600;
+    
+}
+
+.button{
+    background-color: rgba(40, 40, 40, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 216px;
+    height: 64px;
+    border-radius: 8px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    align-items: center;
+}
+
+.description3{
+    padding-top: 17px;
+    padding-left: 134px;
+    margin-left: 50px;
+    width: 344px;
+    height: 61px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    align-items: Center;
+    /* background-color: yellow; */
+}
+
+.text-and-image{
+    display: flex;
+    gap: 150px;
+}
+
+.image {
+    width: 575px;
+    height: 575px;
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: var(--secondary-color);
+    display: flex;
+    height: 298px;
+    width: 100%;
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 20px;
+    gap: 15px;
+    list-style-type: none;
+    margin-left: 191px;
+    margin-top: 40px;
+
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 20px;
+    list-style-type: none;
+    text-align: end;
+    gap: 15px;
+    margin-left: 670px;
+    margin-top: 40px;
+}
